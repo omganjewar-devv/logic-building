@@ -9,8 +9,7 @@ int main()
 
 
     printf("enter your name : \n");
-    scanf("%[^'\n']s",sName);         // ithe & nahi bcoz name of array holds base address for first element of array
-
+    scanf("%[^'\n']s",sName);         // enter remain in input buffer.
     printf("enter your age : \n");
     scanf("%d",&iAge);
 
