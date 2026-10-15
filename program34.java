@@ -25,8 +25,8 @@ class program34 {
 
         System.out.println("enter second number : ");
         iValue2 = scanner.nextInt();
-
-        iResult = addition(iValue1 , iValue2);
+ 
+        iResult = addition(iValue1 , iValue2);     // error
         
         System.out.println("addition is : "+iResult);
 
